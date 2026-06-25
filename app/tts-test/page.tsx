@@ -19,7 +19,7 @@ export default function AutoPlayBanglaTTS() {
 
     try {
       
-      const BACKEND_URL = "https://fifty-aliens-decide.loca.lt/api/tts";
+      const BACKEND_URL = "https://brave-bears-float.loca.lt/api/tts";
 
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
