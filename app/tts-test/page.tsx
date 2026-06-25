@@ -19,7 +19,7 @@ export default function AutoPlayBanglaTTS() {
 
     try {
       
-      const BACKEND_URL = "https://wild-trains-hunt.loca.lt";
+      const BACKEND_URL = "https://wild-trains-hunt.loca.lt/api/tts";
 
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
